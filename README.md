@@ -1,14 +1,25 @@
 Telomere length analyzer
 ========================
 
+## Application
+This Excel script calculates the mean telomere length from a telomeric restriction fragmentation (TRF) Southern blot image. Currently, the maximum number of lanes it can process is **20**.
+
 ## How to Use
-1. Download the [TRF Analyzer](https://github.com/tuliren/telomere_length_analyzer/blob/master/TRF_Analyzer_20130623.xlsm).
+- Evenly partition each lane on the gel image to 30 parts, and measure the color / shade intensity from any gel image software.
 
-2. Follow the instructions of the [TeloRun](http://www4.utsouthwestern.edu/cellbio/shay-wright/research/sw_lab_methods.htm) program to gather the raw data from the TRF Southern blot.
+- Determine the position of the size ladders / markers in terms of the partition. Set the position of each ladder / marker band in the first section "Ladders".
+![step1](img/Step1.png "Step 1: ladder position")
 
-3. Follow the instructions in the TRF Analyzer and feed the raw data into the Excel spreadsheet.
+- Combine all the intensity data into one column, and copy to the second section "Volumn".
+![step2](img/Step2.png "Step 2: volumn information")
 
-4. A complete step-to-step protocol will be updated soon.
+- Setup the sample information in the third section.
+![step3](img/Step3.png "Step 3: sample information")
+
+- Run the script by clicking the button in the fourth section.
+![step4](img/Step4.png "Step 3: mean telomere length calculation")
+
+
 
 ## Copyright
 This Excel VBA script program was developed while I was working in laboratory of [Dr. David Gilley](http://genetics.medicine.iu.edu/faculty/david-p-gilley-ph-d/) in Indiana University, School of Medicine, Indianapolis. It was improved based on the [TeloRun](http://www4.utsouthwestern.edu/cellbio/shay-wright/research/sw_lab_methods.htm) program developed in the laboratory of [Dr. Jerry Shay and Dr. Woodring Wrigth](http://www4.utsouthwestern.edu/cellbio/shay-wright/) in University of Texas Southwestern Medical Center.
