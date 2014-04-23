@@ -14,15 +14,15 @@ Determine the position of the size ladders / markers in terms of the partition. 
 
 #### Step 2
 Combine all the intensity data into one column, and copy to the "Volumn" input region.
-<p><img src="img/Step2.png" align="center" width="40%"></p>
+<p><img src="img/Step2.png" align="center" width="35%"></p>
 
 #### Step 3
 Setup the sample information in the next input region.
-<p><img src="img/Step3.png" align="center" width="40%"></p>
+<p><img src="img/Step3.png" align="center" width="45%"></p>
 
 #### Step 4
 Run the script by clicking the button in the fourth section.
-<p><img src="img/Step4.png" align="center" width="40%"></p>
+<p><img src="img/Step4.png" align="center" width="30%"></p>
 
 ## Result
 After running the script, three result sheets will be generated.
@@ -35,8 +35,10 @@ The detailed information about the telomere length calculation for each lane.
 
 #### Section IV
 A summary of the sample telomere length.
-<p><img src="img/Section4.png" align="center" width="40%"></p>
+<p><img src="img/Section4.png" align="center" width="50%"></p>
 
 ## Copyright
-This Excel VBA script program was developed while I was working in laboratory of [Dr. David Gilley](http://genetics.medicine.iu.edu/faculty/david-p-gilley-ph-d/) in Indiana University, School of Medicine, Indianapolis. It was improved based on the [TeloRun](http://www4.utsouthwestern.edu/cellbio/shay-wright/research/sw_lab_methods.htm) program developed in the laboratory of [Dr. Jerry Shay and Dr. Woodring Wrigth](http://www4.utsouthwestern.edu/cellbio/shay-wright/) in University of Texas Southwestern Medical Center.
+This Excel VBA script program was developed while I was working in laboratory of [Dr. David Gilley](http://genetics.medicine.iu.edu/faculty/david-p-gilley-ph-d/) in Indiana University, School of Medicine, Indianapolis. It was improved based on the algorithm in the script [TeloRun](http://www4.utsouthwestern.edu/cellbio/shay-wright/research/sw_lab_methods.htm) developed in the laboratory of [Dr. Jerry Shay and Dr. Woodring Wrigth](http://www4.utsouthwestern.edu/cellbio/shay-wright/) in University of Texas Southwestern Medical Center. Please consult these two institutions about their policy for intellectual properties.
 
+## Contact
+Please email any question or suggestion to [me](tuliren.git@outlook.com).
